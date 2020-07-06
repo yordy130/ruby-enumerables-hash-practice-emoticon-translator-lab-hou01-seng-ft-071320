@@ -23,6 +23,8 @@ end
 def get_english_meaning(file, emoticon)
   # code goes here
    library = load_library(file)
-   library[key] == 
+   library.each do |key, value|
+     
+   end
   #binding.pry
 end
