@@ -20,7 +20,7 @@ def get_japanese_emoticon
   
 end
 
-def get_english_meaning(load_library, emoticon)
+def get_english_meaning(file_path, emoticon)
   # code goes here
   
   #binding.pry
