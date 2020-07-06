@@ -11,7 +11,7 @@ def load_library(file_path)
     emoticons[key] = {}
     emoticons[key][:japanese]
     emoticons[key][:english]
-    #binding.pry
+    binding.pry
   end
   #binding.pry
 end
