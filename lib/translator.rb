@@ -27,7 +27,7 @@ def get_english_meaning(file, emoticon)
      if value[key][:japanese]
        
       binding.pry
-      puts hello
+      puts 'hello'
      end
      #binding.pry
    end
