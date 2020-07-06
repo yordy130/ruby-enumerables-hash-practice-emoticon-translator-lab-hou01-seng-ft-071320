@@ -9,7 +9,7 @@ def load_library(file_path)
   emoticons.each do |key, value|
     #binding.pry
     emoticons[key] = {}
-    emoticons[key][:japanese] [:english]
+    emoticons[key][:japanese][:english]
     #binding.pry
   end
   #binding.pry
