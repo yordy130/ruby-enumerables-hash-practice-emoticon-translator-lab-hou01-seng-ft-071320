@@ -16,11 +16,11 @@ def load_library(file_path)
   #binding.pry
 end
 
-def get_japanese_emoticon(load_library, emoticon)
+def get_japanese_emoticon
   # code goes here
   
 end
 
-def get_english_meaning
+def get_english_meaning(load_library, emoticon)
   # code goes here
 end
