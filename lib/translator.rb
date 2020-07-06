@@ -24,7 +24,8 @@ def get_english_meaning(file, emoticon)
   # code goes here
    library = load_library(file)
    library.each do |key, value|
-     if value 
+     if value[key][:japanese]
+      binding.pry
      end
      #binding.pry
    end
