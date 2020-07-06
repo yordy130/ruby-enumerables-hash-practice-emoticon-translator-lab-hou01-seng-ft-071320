@@ -25,7 +25,6 @@ def get_english_meaning(file, emoticon)
    library = load_library(file)
    library.each do |key, value|
      if value[key][:japanese]
-       
       binding.pry
       puts 'hello'
      end
