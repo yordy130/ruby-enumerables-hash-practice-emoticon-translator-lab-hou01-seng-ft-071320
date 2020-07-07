@@ -29,7 +29,7 @@ def get_english_meaning(file, emoticon)
       return key
      end
      if emoticon == nil
-       
+       return "Sorry, that emoticon was not found"
      end
      #binding.pry
    end
