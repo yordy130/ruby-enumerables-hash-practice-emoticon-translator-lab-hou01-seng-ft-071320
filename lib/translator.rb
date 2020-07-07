@@ -18,6 +18,17 @@ end
 def get_japanese_emoticon(file, emoticon)
   # code goes here
   library = load_library(file)
+   library.each do |key, value|
+     #binding.pry
+     if value[:english] == emoticon
+      return key
+     end
+     #binding.pry
+   end
+   if emoticon.include?(emoticon)
+      p "Sorry, that emoticon was not found"
+    end
+  
 end
 
 def get_english_meaning(file, emoticon)
